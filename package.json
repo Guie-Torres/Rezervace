@@ -1,0 +1,19 @@
+{
+    "name": "rezervace",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "devStart": "nodemon js/server.js"
+    },
+    "keywords": [],
+    "author": "Guillermo Torres",
+    "license": "ISC",
+    "description": "Rezervation handeling",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "mongoose": "^8.9.6",
+        "uuid": "^11.0.5"
+    }
+}

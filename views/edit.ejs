@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation simulator</title>
+    <script defer src="/js/editReservation.js"></script>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #cddeef80;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            padding: 20px;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold; 
+            color: #333;
+            margin-bottom: 15px; 
+            display: block; 
+        }
+
+        input[type="text"] {
+            width: 85%;
+            padding: 15px;
+            margin-bottom: 35px;
+            border: 2px solid #ccc;
+            border-radius: 6px; 
+            font-size: 20px;
+            box-sizing: border-box; 
+        }
+
+        input[type="text"]:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .edit{
+            height: 30px;
+            width: 200px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit reservation</h1>
+    <div class="container">
+       <label for="id-input">Enter ID to Edit</label>
+         <input type="text" name="id-input" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+      <button type="button" id="id-input-button">CONFIRM</button>
+    </div>
+</html>
